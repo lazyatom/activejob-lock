@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
 
-  s.add_dependency 'activejob', '~> 5.0'
-  s.add_dependency 'activesupport', '~> 5.0'
+  s.add_dependency 'activejob'
+  s.add_dependency 'activesupport'
 
   s.add_development_dependency "bundler", "~> 1.7"
   s.add_development_dependency "rake", "~> 10.0"
